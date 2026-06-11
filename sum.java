@@ -1,17 +1,20 @@
-package Practice;
-
-
+package functions;
 
 import java.util.*;
 public class sum {
+    public static int calculatesum(int a,int b){
+     int sum = a+b;
+     return sum;
+    }
+  
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        int sum =0;  // the variable sum will store the total
-        for(int i=1; i<5 ; i++){
-          sum = sum + i;  //it adds the current value of i to sum during each iteration
-        }
-         System.out.println(sum);
+        int sum= calculatesum(a,b);
+        System.out.println("The sum of a and b is :" +sum);
+
+        sc.close();
     }
 }
