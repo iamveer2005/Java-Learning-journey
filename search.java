@@ -1,4 +1,6 @@
-//Takean array as input from the user. Search for a given number x and print the  index at which it occured
+//Take an array as input from the user. Search for a given number x and print the  index at which it occured
+// this type of searching is called linear search 
+
 import java.util.*;
 public class search {
     public static void main(String[] args) {
